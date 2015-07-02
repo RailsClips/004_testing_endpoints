@@ -14,6 +14,7 @@ group :development do
   gem "spring", "~> 1.3.6"
   gem "pessimize", "~> 0.1.0"
   gem "rspec-rails", "~> 3.2.2"
+  gem "quiet_assets", "~> 1.1.0"
 end
 
 gem "rails", "~> 4.2.1"

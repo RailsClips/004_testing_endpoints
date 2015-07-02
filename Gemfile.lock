@@ -78,6 +78,8 @@ GEM
     pessimize (0.1.0)
       bundler
       trollop
+    quiet_assets (1.1.0)
+      railties (>= 3.1, < 5.0)
     rack (1.6.1)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -174,6 +176,7 @@ DEPENDENCIES
   jbuilder (~> 2.2.16)
   jquery-rails (~> 4.0.3)
   pessimize (~> 0.1.0)
+  quiet_assets (~> 1.1.0)
   rails (~> 4.2.1)
   rspec-rails (~> 3.2.2)
   sass-rails (~> 5.0.3)
