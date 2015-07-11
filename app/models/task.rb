@@ -6,4 +6,8 @@ class Task < ActiveRecord::Base
   def complete
     update_attribute(:completed, true)
   end
+
+  def as_json(option={})
+    super(only: [:id, :name, :due_at])
+  end
 end
