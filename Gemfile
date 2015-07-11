@@ -6,6 +6,7 @@ group :test do
   gem "spring", "~> 1.3.6"
   gem "pessimize", "~> 0.1.0"
   gem "rspec-rails", "~> 3.2.2"
+  gem "factory_girl_rails", "~> 4.5.0"
 end
 
 group :development do
